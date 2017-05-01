@@ -11,5 +11,5 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[git::default]
+      - recipe[rabbitmq_flugel::default]
     attributes:
